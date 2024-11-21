@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IR</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="icon/png" href="asset/img/logo/rail_icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+
+    <!-- :start of optional css-->
+
+    <!-- font-awesome for icon -->
+    <link rel="stylesheet" href="asset/font-awesome/css/all.min.css">
+
+    <!-- animation css -->
+    <link rel="stylesheet" href="asset/css/animate.css">
+
+    <!-- hover css animations -->
+    <link rel="stylesheet" href="asset/css/hover-min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="asset/css/custom.css">
+
+    <!-- :end of optional css -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="asset/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="asset/js/popper.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <style type="text/css">
+			body{
+				background: url(asset/img/10.jpg);
+				background-repeat: no-repeat;
+				background-size: 100%;
+				background-attachment: fixed;
+			}
+			.left{
+				background: rgba(1,1,1,0.8);
+				width: 90%;
+				color: white;
+				list-style-type: none;	
+				border-radius: 4px;
+				/*margin: auto; */
+
+
+			}
+			.bg-trans{
+				background: rgba(1,1,1,0);
+				color: white;
+
+			}
+			.left li a{
+				color: #ddd;
+				display: block;
+				/*margin: auto;*/
+				padding: 20px;
+				font-family: Bahnschrift;
+				text-align: center;
+
+			}
+			li{
+				padding-left:20px;
+				padding-right:20px;
+			}
+			.left li:hover{
+				background: #233;
+				border-radius: 50px;
+				color: #fff;
+				
+			}
+			.left a:hover{
+				/*color: #fff;*/
+				text-decoration: none;
+			}
+			
+	</style>
+	
+</head>
+<body >
+	<!-- header Body -->
+		
+		
+		<!-- Main navigation bar -->
+		<nav class="navbar navbar-dark left">
+			<!-- <button class="navbar-toggler " data-target="#myNav" data-toggle="collapse">
+            	<span class="navbar-toggler-icon"></span>
+        	</button> -->
+        	<!-- <div class="navbar-collapse collapse" id="myNav"> -->
+			<ul class="navbar-nav">
+			<li><a class="active" href="admin_dashboard.php">Dashboard</a></li>
+			<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Trains</a>
+				<div class="dropdown-menu bg-trans">
+					<a href="admin_viewtrains.php" class="dropdown-item">View Trains</a>
+					<a href="admin_addtrains.php" class="dropdown-item">Add Trains Details</a>
+					<a href="admin_edittrains.php" class="dropdown-item">Edit Trains Details</a>
+					<a href="admin_deletetrains.php" class="dropdown-item">Delete Train</a>
+				</div>
+			</li>
+			<li><a href="admin_viewtickets.php">View Tickets</a></li>
+			<li><a href="admin_pnrstatus.php">PNR status</a></li>
+			<li><a href="admin_viewfeedbacks.php">View Feedbacks</a></li>
+			</ul>
+			<!-- </div> -->
+		</nav>
+
+		<!-- <li>Dashbord</li>booked cancelled registered trains
+                    <li>Trains</li>view(specific all) add edit delete
+                    <li>view Tickets</li>between date booked cancelled
+                    <li>PNR status</li> -->
+
+
+
+
+</body>
+</html>
